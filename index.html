@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<HTML>
 
 <head>
 	<meta charset="UTF-8" />
@@ -11,9 +11,10 @@
 </head>
 
 <body>
-	<form>
-		<h1 id="header">Formularz</h1>
-		<hr>
+	<h1 id="header">Formularz</h1>
+	<hr>
+	<p id="text"></p>
+	
 		<h2>Jak się nazywasz?</h2>
 		<input id="imie" class="input" placeholder="Wpisz swoje imię:" maxlength="15" required><br><br>
 
@@ -25,10 +26,9 @@
 
 		<h2>Gdzie mieszkasz?</h2>
 		<input id="mieszkanie" class="input" placeholder="Wpisz miejsce zamieszkania" required><br><br>
-		<input type="submit" id="submit" onclick="show()">
-		<p id="text"></p>
-	</form>
-
+		
+		<input type="button" value="Prześlij" id="submit" onclick="show()"><br>
+		<input type="submit" value="Zresetuj" id="reset">
 
 	<script src="script.js"></script>
 </body>
