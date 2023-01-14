@@ -4,11 +4,11 @@ body {
 	background-color:gray;
 	text-align:center;
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 h1 {
-		font-size:95px;
+		font-size:55px;
 }
 
 hr {
@@ -17,63 +17,56 @@ hr {
 }
 
 .input {
-	padding:25px;
+	padding:15px;
 	border:none;
 	border-radius: 30px;
-  width: 30em;
-  height: 1.2em;
+  width: 20em;
+  height: 1em;
   text-align: center;
   transition: 1s linear;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .input:hover, :focus {
   background-color: rgba(212, 207, 207, 0.705);
-  width:32em;
-  height: 1.7em;
+  width:22em;
+  height: 1.2em;
 }
 
 #submit {
   border-radius: 30px;
-  width: 20rem;
+  width: 15rem;
   height: 2em;
   transition: 1.5s ease;
   font-size: 20px;
-  margin-bottom: 50px;
+  margin-left: 40.5em;
+  margin-bottom: 20px;
+  display: block;
+  cursor: pointer;
 }
 
-#submit:hover {
-  background-color: rgba(129, 129, 129, 0.705);
-  cursor: pointer;
-  width: 22rem;
-  height: 3em;
-}
 
 #reset {
   visibility: hidden;
   border-radius: 30px;
-  width: 20rem;
+  width: 15rem;
   height: 2em;
-  transition: 1.5s ease;
-  font-size: 20px;
-}
-
-#reset:hover {
-  background-color: rgba(129, 129, 129, 0.705);
   cursor: pointer;
-  width: 22rem;
-  height: 3em;
-
+  font-size: 20px;
+  display: block;
+  margin-left: 40.5em;
 }
+
 #header {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
 }
 
-#text {
-  font-size: 50px;
+#text1 {
+  font-size: 20px;
   font-weight: 800;
   animation: rainbow 2.5s linear 0s infinite; 
+  visibility: hidden;
 }
 
 @keyframes rainbow {

@@ -13,8 +13,8 @@
 <body>
 	<h1 id="header">Formularz</h1>
 	<hr>
-	<p id="text"></p>
-	
+	<p id="text1">Dziękujemy za udział w formularzu :)</p>
+	<form>
 		<h2>Jak się nazywasz?</h2>
 		<input id="imie" class="input" placeholder="Wpisz swoje imię:" maxlength="15" required><br><br>
 
@@ -27,9 +27,9 @@
 		<h2>Gdzie mieszkasz?</h2>
 		<input id="mieszkanie" class="input" placeholder="Wpisz miejsce zamieszkania" required><br><br>
 		
-		<input type="button" value="Prześlij" id="submit" onclick="show()"><br>
-		<input type="submit" value="Zresetuj" id="reset">
-
+		<input type="button" value="Prześlij" id="submit" onclick="show()">
+		<input type="reset" value="Zresetuj" id="reset" onclick="reset()">
+	</form>
 	<script src="script.js"></script>
 </body>
 
